@@ -1,0 +1,2 @@
+# jQuery-truncate
+jQuery plugin
