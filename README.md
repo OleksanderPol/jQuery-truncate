@@ -1,4 +1,4 @@
-##jQuery-truncate-text
+##jQuery truncate text
 
 The plugin is used to __truncate__ text. It also adds hellip to the end of string. Click on hellip (...) allows you to see the whole text.
 
@@ -24,12 +24,14 @@ The paragraph after using method:
 ```
 *The length of hellip and white spases are also taken into account.*
 
-It is possible to see the whole text after clicking on __hellip (...)__. Exampl:
+It is possible to see the whole text after clicking on __hellip (...)__:
 
 [Example](https://jsfiddle.net/OleksandrPol/du6h8uxf/)
 
 ##Argument
 
 The argument must be positive integer number and greater than zero.
+If the argument is bigger than text length, method is doing nothing.
+
 *One element is mandatory (used to show the hellip)*
 
