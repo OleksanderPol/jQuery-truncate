@@ -1,8 +1,8 @@
-##jQuery truncate text
+## jQuery truncate text
 
 The plugin is used to __truncate__ text. It also adds hellip to the end of string. Click on hellip (...) allows you to see the whole text.
 
-##Code Example
+## Code Example
 
 To truncate a text inside the element use next method:
 ```javascript
@@ -28,7 +28,7 @@ It is possible to see the whole text after clicking on __hellip (...)__:
 
 [Example](https://jsfiddle.net/OleksandrPol/du6h8uxf/)
 
-##Argument
+## Argument
 
 The argument must be positive integer number and greater than zero.
 If the argument is bigger than text length, method is doing nothing.
